@@ -1,6 +1,10 @@
 const initialState = () => ({
-    bitcoin: "",
-    ethereum: "",
+    bitcoin: {
+        price_usd: ""
+    },
+    ethereum: {
+        price_usd: ""
+    },
 });
 
 export default initialState;
